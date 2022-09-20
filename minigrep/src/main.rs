@@ -1,4 +1,4 @@
-use minigrep::Config;
+use pbb_minigrep::Config;
 use std::env;
 use std::process;
 use std::thread;
@@ -10,7 +10,7 @@ fn main() {
         eprintln!("Prolem parsing arguments: {}", err);
         process::exit(1);
     });
-    if let Err(e) = minigrep::run(config) {
+    if let Err(e) = pbb_minigrep::run(config) {
         eprintln!("Application error: {}", e);
         process::exit(1);
     }
