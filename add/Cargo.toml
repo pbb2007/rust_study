@@ -2,4 +2,5 @@
 members = [
     "adder",
     "add-one",
+    "pbb_add_two",
 ]
