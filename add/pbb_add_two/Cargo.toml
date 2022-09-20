@@ -1,0 +1,11 @@
+[package]
+name = "pbb_add_two"
+version = "0.1.0"
+edition = "2021"
+authors = ["pbb"]
+description = "A fun game where you guess what number the computer has chosen." 
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
